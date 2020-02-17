@@ -10,3 +10,4 @@ python3 Main.py Tweets_US_Airline.csv ds.csv 10
 python3 Main.py amazon_jobs_dataset.csv ds.csv 4 #description
 python3 Main.py amazon_jobs_dataset.csv ds.csv 5 #basic qualification
 python3 Main.py amazon_jobs_dataset.csv ds.csv 6 #preferred qualification
+python3 Main.py spam_ham_dataset.csv ds.csv 2

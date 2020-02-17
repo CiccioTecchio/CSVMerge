@@ -10,7 +10,7 @@ python3 Main.py GBcomments.csv ds.csv 1
 python3 Main.py UScomments.csv ds.csv 1
 #python3 Main.py Oscar2019Tweets.csv ds.csv 3
 #python3 Main.py Tweets_US_Airline.csv ds.csv 10
-python3 Main.py amazon_jobs_dataset.csv ds.csv 4 #description
-python3 Main.py amazon_jobs_dataset.csv ds.csv 5 #basic qualification
-python3 Main.py amazon_jobs_dataset.csv ds.csv 6 #preferred qualification
+#python3 Main.py amazon_jobs_dataset.csv ds.csv 4 #description
+#python3 Main.py amazon_jobs_dataset.csv ds.csv 5 #basic qualification
+#python3 Main.py amazon_jobs_dataset.csv ds.csv 6 #preferred qualification
 python3 Main.py SMS_spam.csv ds.csv 1
