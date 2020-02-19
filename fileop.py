@@ -9,7 +9,7 @@ def addLines(r, w):
     for row in r:
         twt = [row[int(sys.argv[3])]]  # int is col to append
         print(twt[0])
-        if not re.match(regex, twt[0]) and TextBlob(twt[0]).detect_language() == 'en':  # skip retweet
+        if len(twt[0]) > 3 and not re.match(regex, twt[0]) and TextBlob(twt[0]).detect_language() == 'en':  # skip retweet
             print("ACCETTATO")
             w.writerow(twt)
             add_cont += 1
