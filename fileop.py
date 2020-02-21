@@ -13,7 +13,7 @@ def addLines(r, w):
             print("ACCETTATO")
             w.writerow(twt)
             add_cont += 1
-            time.sleep(1)
+            time.sleep(0.5)
         else:
             print("RIFIUTATO")
     return add_cont
